@@ -1,0 +1,14 @@
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.AssemblyInfoInputs.cache
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.AssemblyInfo.cs
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.csproj.CoreCompileInputs.cache
+E:\code\testingvs\testingvs\bin\Debug\net8.0\testingvs.exe
+E:\code\testingvs\testingvs\bin\Debug\net8.0\testingvs.deps.json
+E:\code\testingvs\testingvs\bin\Debug\net8.0\testingvs.runtimeconfig.json
+E:\code\testingvs\testingvs\bin\Debug\net8.0\testingvs.dll
+E:\code\testingvs\testingvs\bin\Debug\net8.0\testingvs.pdb
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.dll
+E:\code\testingvs\testingvs\obj\Debug\net8.0\refint\testingvs.dll
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.pdb
+E:\code\testingvs\testingvs\obj\Debug\net8.0\testingvs.genruntimeconfig.cache
+E:\code\testingvs\testingvs\obj\Debug\net8.0\ref\testingvs.dll

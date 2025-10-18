@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "testingvs": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\code\\testingvs"
+    }
+  }
+}

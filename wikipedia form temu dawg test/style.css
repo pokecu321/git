@@ -1,0 +1,131 @@
+/* warna navigasi atas #daebe8 */
+/*size*/
+    h1{
+        font-size: 500%;
+    }
+        * {
+     box-sizing: border-box;
+    }
+        
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #b7d7e8;
+    }
+
+/* .sidenavleft */
+     /* Style the side navigation */
+    
+         .sidenavleft {
+         height: 100%;
+         width: 150px;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: #cfe0e8;
+         overflow-x: hidden;
+        }
+
+    /* .sidenavleft text */
+        .sidenavleft h2{            
+         size: 100px;
+         color:black ;
+         padding: 16px;
+         text-decoration:none ;
+         display: block;
+        }
+    
+    /* Side navigation links */
+    
+        .sidenavleft a{
+         color: rgb(0, 0, 0);
+         padding: 16px;
+         text-decoration: none;
+         display: block;
+        }
+    
+    /* Change color on hover */
+        .sidenavleft a:hover {
+         background-color: #dddddd;
+         color: black;
+        }
+
+
+/* .sidenavright */
+    /* .sidenavright style */
+	    .sidenavright{
+		    height: 100%;
+		    width: 250px;
+		    position: fixed;
+		    z-index: 1;
+		    top: 0;
+		    right: 0;
+		    background-color: #87bdd8;
+		    overflow-x:scroll;
+            overflow-y: scroll;
+            padding-left: 20px;
+           padding-top: 10px;
+	    }
+
+    /* .sidenavright image */
+	    .sidenavright image{
+		    height: 50%;
+		    width: 1px;
+            display: block;
+	    }
+
+    /* .sidenavright text */
+        .sidenavright p{
+         color: black;
+        }
+
+    /* .sidenavright table     */
+        .sidenavright table {
+         font-family: Arial, sans-serif;
+         border-collapse: collapse;
+         width: 10%;align-content: center;
+        }
+        .sidenavright td {
+            border: 1cap solid #87bdd8;
+            text-align:start;
+            padding: 1%;
+        }
+        .sidenavright th {
+            border: 1cap solid #daebe8;
+            text-align:center;
+            padding: 1px;
+        }
+        .sidenavright tr:nth-child(even) {
+            background-color: #daebe8;   
+        }
+
+
+/* .content */
+    /* Style the content */
+        .content {        
+         margin-left: 150px;
+         padding-left: 20px;
+         margin-right: 300px;
+         padding-right: 20px;
+        }
+    /* table .content     */
+        .content table {
+         font-family: Arial, sans-serif;
+         border-collapse: collapse;
+         width: 10%;align-content: center;
+        }
+        .content td {
+         border: 1cap solid #87bdd8;
+         text-align:start;
+         padding: 1%;
+        }
+        .content th {
+          border: 1cap solid #87bdd8;
+            text-align:center;
+           padding: 1px;
+        }
+        .content tr:nth-child(even) {
+         background-color: #daebe8;   
+        }
+    

@@ -1,0 +1,1 @@
+print("canda\n"*1000)

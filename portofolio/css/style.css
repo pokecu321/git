@@ -1,0 +1,60 @@
+:root {
+    --maincolor : #142d4c ;
+    --secondarycolor : #385170 ;
+    --acsentcolor : #9fd3c7 ;
+}
+
+body {
+    background-color: var(--maincolor);
+    min-height: 900px;
+    font-family: 'ubuntu',sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem
+}
+/* navbar */
+
+ .nav-link.active {
+    color: var(--acsentcolor)!important;
+ }
+
+/* end navbar */
+
+/* hero */
+
+ .color-acsent {
+    color: var(--acsentcolor);
+ }
+
+ #hero {
+    color: #fff;
+    min-height: 100vh;
+ 
+ }
+
+ #hero h1{
+    font-size: 3rem;
+ }
+ #hero h2{
+    font-weight: 300;
+ }
+ #hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+ }
+
+ /* cta */
+ .btn-custom1 {
+    background-color: var(--acsentcolor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+ }
+ .btn-custom1:hover{
+    box-shadow: 0 0 5px var(--acsentcolor); 
+ }
+/* end hero */
