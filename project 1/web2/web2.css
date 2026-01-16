@@ -1,6 +1,90 @@
-p ,a {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 50px;
+@font-face {
+  font-family: 'JetBrains Mono Nerd Font';
+  src: url('/JetBrainsMonoNLNerdFont-Light.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+    --maincolor : #142d4c ;
+    --secondarycolor : #385170 ;
+    --acsentcolor : #9fd3c7 ;
+}
+
+body {
+    background-color: var(--maincolor);
+    min-height: 900px;
+    /* font-family: 'ubuntu',sans-serif; */
+}
+
+body {
+  font-family: 'JetBrains Mono Nerd Font', monospace;
+}
+a {
+    text-align:end;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    display: flex;
+    color: white;
+    size: ;
+}
+
+.navbar {
+    background-color: #333; /* Dark background color */
+    overflow: hidden; /* Clear floats if using float method */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    float:none;
+    position:sticky ;
+    top: 0;
 
 }
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+}
+
+.nav-links li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underlines */
+    padding: 14px 16px;
+    display: block; /* Make links a block element for padding */
+}
+
+.nav-links li a:hover {
+    background-color: #ddd; /* Change background on hover */
+    color: black;
+}
+
+/* img {
+    padding: 15px 0px;
+    align-items: end;
+    width: 500px;
+    height: auto;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+.teks{
+    flex: 1;
+    padding: 0px 1px;
+    padding-left: 100px;
+}
+
+/* .foto{
+    
+} */
